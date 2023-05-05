@@ -12,7 +12,7 @@ vector<bool> Sieve(int n)
   {
     if(sieve[i]==true)
     {
-      int j = i*2;
+      int j = i*i;
       while(j<=n)
       {
         sieve[j] = false;
